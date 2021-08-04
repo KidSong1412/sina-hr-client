@@ -1,0 +1,107 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "新浪浙江面试安排",
+				"navigationBarBackgroundColor": "#d7d7d7",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": {
+						"autoBackButton": false
+					}
+				}
+			}
+		},
+		{
+            "path" : "pages/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "应聘者信息",
+				"navigationBarBackgroundColor": "#d7d7d7",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/signIn/signIn",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "应聘者面试签到",
+				"navigationBarBackgroundColor": "#d7d7d7",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/appointment/appointment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "应聘者面试预约",
+				"navigationBarBackgroundColor": "#d7d7d7",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/analyse/analyse",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "应聘者面试评析",
+				"navigationBarBackgroundColor": "#d7d7d7",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/edit/edit",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "应聘者信息编辑",
+				"navigationBarBackgroundColor": "#d7d7d7",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "HR-简历CMS-登录",
+				"navigationBarBackgroundColor": "#d7d7d7",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"autoBackButton": false
+					}
+				}
+            }
+            
+        },
+		{
+			"path" : "pages/apply/apply",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "新浪浙江职位申请",
+				"navigationBarBackgroundColor": "#d7d7d7",
+				"enablePullDownRefresh": false
+			}
+		},
+        {
+            "path" : "pages/internship/internship",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新浪浙江职位(实习)申请",
+                "navigationBarBackgroundColor": "#d7d7d7",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
