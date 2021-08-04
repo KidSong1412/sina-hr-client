@@ -217,7 +217,7 @@
 				for (var key in formData) {
 					if (formData[key] === '' && key !== 'recent_work') {
 						uni.showModal({
-							content: '内容不能为空，请认真填写1！',
+							content: '内容不能为空，请认真填写！',
 							showCancel: false
 						})
 						return;
@@ -225,7 +225,7 @@
 				}
 				if (native_palace === '' || date_of_birth === '' || date_of_work_first === '' || date_graduation === '' || application_department === undefined || application_position === undefined) {
 					uni.showModal({
-						content: '内容不能为空，请认真填写2！',
+						content: '内容不能为空，请认真填写！',
 						showCancel: false
 					})
 					return;
